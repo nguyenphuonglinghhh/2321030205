@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Khoang cach</title>
+    <style>
+        .khoi-1{
+            background-color: red;
+        }
+        .khoi-2{
+            background-color: green;
+            /* margin truyền 1 giá trị thì sẽ cách xung quanh = giá trị đó */
+            /* 2 giá trị: Giá trị đầu (trên dưới), giá trị 2 (trái phải) */
+            /* 4 giá trị: thứ tự trên-phải-dưới-trái */
+            margin: 10px 50px 100px 200px;
+        }
+        .khoi-3{
+            background-color: yellow;
+            padding: 10px 50px 100px 200px;
+        }
+
+        /* display: flex; */
+        /* justify-content:...; dùng để căn các phần tử theo trục ngang */
+        /* align-items:...; dùng để căn chỉnh các phần tử theo chiều dọc */
+        /* flex-start: 
+           flex-end: 
+           center: 
+           space-between: 
+           space-around: 
+        */
+        
+    </style>
+</head>
+<body>
+    <div class="khoi-1">Khối 1</div>
+    <div class="khoi-2">Khối 2</div>
+    <div class="khoi-3">Khối 3</div>
+</body>
+</html>

@@ -1,0 +1,28 @@
+h3{
+    color: yellow;
+    background-color: green;
+}
+.tieude-2{
+    color:blue;
+    background-color:aqua;
+}
+
+div.web4{
+    color: red;
+    background: blue;
+}
+
+.box{
+    width: 100px;
+    height: 100px;
+    background-color:aqua;
+    margin: 20px;
+}
+
+.box1{
+    width: 100px;
+    height: 100px;
+    color: blue;
+    background-color:blanchedalmond;
+    padding: 10px;
+}
