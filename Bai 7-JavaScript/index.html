@@ -238,8 +238,75 @@
         else{
             document.writeln("Điểm không hợp lệ")
         }
-        
 
+        // object: var name { }
+        var ThongTinSinhVien = {
+            hoTen: "Nguyen Phuong Linh",
+            tuoi: 21,
+            gioiTinh: false,
+            // true: nam, false: nữ
+            diaChi: {
+                thanhPho: "Ha Noi",
+                phuong: "Quang Bi",
+            }
+        }
+        
+        var thongTinPhim = {
+            ten: "Mưa đỏ",
+            daoDien: "Đặng Thái Huyền",
+            nam: 2025,
+            theLoai: "Lịch sử",
+            thoiLuong: 124,
+            dienVien: {
+                dienVienChinh: [
+                    "Đỗ Nhật Hoàng", "Lê Hạ Anh", "Steven Nguyễn"
+                ],
+                dienVienPhu: [
+                    "Đỗ Nhật Hoàng", "Lê Hạ Anh", "Steven Nguyễn"
+                ]
+            }
+        }
+        document.writeln("<br>");
+        document.writeln(thongTinPhim.dienVien.dienVienChinh[2])
+        document.writeln("<br>");
+
+        //switch case
+        var d = new Date();
+        var theDay = d.getDay();
+        switch (theDay) {
+            case 5:
+                document.write("Finally Friday");
+                break; 
+            case 6:
+                document.write("Super Saturday");
+                break;
+            case 0:
+                document.write("Sleepy Sunday");
+                break;
+            default:
+                document.write("I'm looking forward to this weekend!");
+        }
+
+        for (var index = 1; index <= 2; index++) {
+            document.writeln("<br> Xin chào!",+ index);
+        }
+
+        var danhSachSinhVien = ["Linh" , "Nhung" , "Ninh" , "Chi" , "Huyền"];
+        document.writeln("<br> Xin chào " + danhSachSinhVien[0]);
+        for (var i = 0; i < danhSachSinhVien.length; i++) {
+            document.writeln("<br>" +i +"<br>");
+            document.writeln("Xin chào " + danhSachSinhVien[i]); 
+        }
+
+        var ds = ["Linh" , "Nhung" , "Ninh" , "Chi" , "Huyền"];
+        for (var i = 0; i < ds.length; i++) {
+            if ( ds[i] == "Ninh" || ds[i] == "Linh") {
+                document.writeln("<br>");
+                document.writeln("Xin chào " + ds[i]);
+            }
+        }
+
+        
 
      </script>
 
